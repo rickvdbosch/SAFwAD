@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28516.95
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SAFwAD.Functions", "SAFwAD.Functions\SAFwAD.Functions.csproj", "{4BD7ABF0-2729-40ED-987B-538297A76ECE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BD7ABF0-2729-40ED-987B-538297A76ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD7ABF0-2729-40ED-987B-538297A76ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD7ABF0-2729-40ED-987B-538297A76ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD7ABF0-2729-40ED-987B-538297A76ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38D2A8FB-57E3-4CDE-91B1-11449EB3269A}
+	EndGlobalSection
+EndGlobal
