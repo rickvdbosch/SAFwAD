@@ -37,7 +37,7 @@ export function logThis(logLevel, message, piiLoggingEnabled) {
       level: LogLevel.Verbose,
       logger: logThis,
       piiLoggingEnabled: true,
-      // protectedResourceMap: protectedResourceMap
+      protectedResourceMap: protectedResourceMap
   })
   ],
   providers: [ {

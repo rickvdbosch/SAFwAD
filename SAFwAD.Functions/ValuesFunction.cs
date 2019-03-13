@@ -49,7 +49,7 @@ namespace SAFwAD.Functions
 
         [FunctionName("ValuesFunction")]
         public static async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "values")] HttpRequest req, 
+            [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "values")] HttpRequest req,
             ILogger log)
         {
             log.LogInformation("We're logging something here because the Function was called. So there.");

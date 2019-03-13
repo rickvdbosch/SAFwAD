@@ -1,5 +1,5 @@
 const API_URL: string = 'http://localhost:7071/api/';
-// const API_URL: string = 'https://safwadfa.azurewebsites.net/api/';
+// const API_URL: string = 'https://safwadapi.azurewebsites.net/api/';
 
 export const environment = {
   production: false,

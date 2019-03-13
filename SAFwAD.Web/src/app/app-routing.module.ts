@@ -19,7 +19,7 @@ const routes: Routes = [
   {
     path: 'fetch',
     component: ApiComponent,
-    // canActivate: [MsalGuard]
+    canActivate: [MsalGuard]
   }
 ];
 
