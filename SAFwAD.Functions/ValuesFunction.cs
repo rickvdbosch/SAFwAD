@@ -13,36 +13,23 @@ namespace SAFwAD.Functions
 
         private static readonly string[] VALUES = new[]
         {
-            "James Ashley",
-            "Gian Paolo Santopaolo",
-            "Håkan Silfvernagel",
-            "Brenno de Winter",
-            "Sander Hoogendoorn",
-            "Sander Duivestein",
-            "Pat Hermens",
-            "Alessandro Vozza",
-            "Joost van Schaik",
-            "Henk Boelman",
-            "Edwin van Wijk",
-            "Sakia Groenewegen",
-            "Dennis Vroegop",
-            "Jan de Vries",
-            "Geert van der Cruijsen",
-            "Eldert Grootenboer",
-            "Eduardo Leegwater Simões",
-            "Bas Niesink",
-            "Rick van den Bosch",
-            "Carl in 't Veld",
-            "Jan Willem Groenenberg",
-            "Hans Boksem",
-            "Sander Gerz",
-            "Remi Caron",
-            "Sascha Wolter",
-            "Martin Opdam",
-            "Alex de Groot",
-            "Roelant Dieben",
-            "Dave Smits",
-            "Thomas de Klerk"
+            "There are three letters in your alphabet which are not found in the English – Æ, Ø and Å",
+            "Denmark is very flat, the tallest point is 170 meters",
+            "Denmark is the longest uninterrupted monarchy in Europe",
+            "In Denmark, you can’t be further away from the ocean than one hour (up to 52 km)",
+            "A Dane invented Lego",
+            "You have the oldest and the second oldest amusement park in the world (Bakken and Tivoli)",
+            "Denmark has the oldest film making company in the world (Nordisk film)",
+            "It rains almost every other day (170 days a year)",
+            "Dannebrog, your flag, is the oldest state flag in the world still in use by an independent nation",
+            "Health care is free",
+            "Education is also free",
+            "Denmark has been awarded 14 Nobel prizes and with 5.6 million inhabitants, that's one of the highest per capita ratio in the world",
+            "Denmark is one of the least corrupt countries in the world",
+            "Denmark became the first country to legalise same-sex unions in 1989",
+            "There are actually sharks living in your waters",
+            "Denmark has 444 islands, but only 76 of them are inhabited",
+            "You were the first country to legalise porn in 1969"
          };
 
         #endregion
@@ -52,7 +39,7 @@ namespace SAFwAD.Functions
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = "values")] HttpRequest req,
             ILogger log)
         {
-            log.LogInformation("We're logging something here because the Function was called. So there.");
+            log.LogInformation("We're logging something here because the Function was called. So there :p.");
 
             return await Task.FromResult(new OkObjectResult(VALUES));
         }
