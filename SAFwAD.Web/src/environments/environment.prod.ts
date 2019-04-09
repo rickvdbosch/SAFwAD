@@ -1,4 +1,4 @@
-const API_URL: string = 'https://safwadapi.azurewebsites.net/api/';
+const API_URL: string = 'https://safwadfa.azurewebsites.net/api/';
 
 export const environment = {
   production: true,

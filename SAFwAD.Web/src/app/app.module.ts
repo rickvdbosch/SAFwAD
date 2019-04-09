@@ -31,21 +31,21 @@ export function logThis(logLevel, message, piiLoggingEnabled) {
     AppRoutingModule,
     BrowserModule,
     HttpClientModule,
-    MsalModule.forRoot({
-      authority: 'https://login.microsoftonline.com/rickvdboschoutlook.onmicrosoft.com',
-      clientID: 'c23c003d-f334-47a6-94b9-d8e9f7bc6d5f',
-      level: LogLevel.Verbose,
-      logger: logThis,
-      piiLoggingEnabled: true,
-      protectedResourceMap: protectedResourceMap
-  })
+    // MsalModule.forRoot({
+    //   authority: 'https://login.microsoftonline.com/rickvdboschoutlook.onmicrosoft.com',
+    //   clientID: 'c23c003d-f334-47a6-94b9-d8e9f7bc6d5f',
+    //   level: LogLevel.Verbose,
+    //   logger: logThis,
+    //   piiLoggingEnabled: true,
+    //   protectedResourceMap: protectedResourceMap
+    // })
   ],
-  providers: [ {
-    provide: HTTP_INTERCEPTORS,
-    useClass: MsalInterceptor,
-    multi: true
-}
-],
+//   providers: [ {
+//     provide: HTTP_INTERCEPTORS,
+//     useClass: MsalInterceptor,
+//     multi: true
+// }
+// ],
   bootstrap: [AppComponent]
 })
 export class AppModule {

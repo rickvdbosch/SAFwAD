@@ -11,11 +11,11 @@ import { ValuesService } from 'src/app/services/values.service';
 })
 export class ApiComponent implements OnInit {
 
-  public speakers$: Observable<string[]>;
+  public values$: Observable<string[]>;
 
   constructor(private valuesService: ValuesService) { }
 
   ngOnInit() {
-      this.speakers$ = this.valuesService.getValues();
+      this.values$ = this.valuesService.getValues();
   }
 }
