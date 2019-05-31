@@ -8,4 +8,5 @@ footer, since it holds links to all (Azure) services used for this talk. The web
 >Accelerate your development with an event-driven, serverless compute experience. Scale on demand and pay only for the resources you consume.
 
 ## Presentation
-The slides are [available on SlideShare](https://www.slideshare.net/secret/gCzmIZ8QTT0kmI).
+The slides for [SAFwAD @ WAZUGNL](https://www.slideshare.net/rickvdbosch/securing-an-azure-function-rest-api-with-azure-active-directory).  
+The slides for [SAFwAD @ ICC](https://www.slideshare.net/rickvdbosch/safwad-intelligent-cloud-conference).
