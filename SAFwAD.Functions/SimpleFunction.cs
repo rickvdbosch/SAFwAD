@@ -5,7 +5,7 @@ using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.Extensions.Logging;
 
-namespace SAFwAD
+namespace SAFwAD.Functions
 {
     public static class SimpleFunction
     {
